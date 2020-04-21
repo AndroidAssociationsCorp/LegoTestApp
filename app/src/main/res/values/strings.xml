@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LegoTestApp</string>
+    <string name="lego">Lego</string>
 </resources>
