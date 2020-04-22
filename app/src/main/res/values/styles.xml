@@ -9,7 +9,7 @@
     </style>
 
     <style name="RoundedButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:background">@drawable/roundedbutton</item>
     </style>
 
 </resources>
