@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">LegoTestApp</string>
     <string name="lego">Lego</string>
+    <string name="background_image">background</string>
+    <string name="select_level">Выберите уровень</string>
+    <string name="btn_newbie_mode">Новичок</string>
+    <string name="btn_advanced_mode">Бывалый</string>
+    <string name="btn_start_main">Начать</string>
+    <string name="main_title">Лего тест</string>
 </resources>
