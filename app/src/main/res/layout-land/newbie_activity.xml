@@ -34,7 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:id="@+id/container3"
@@ -46,10 +47,11 @@
                     android:id="@+id/btn_back"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
                     android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/btn_press"
-                    android:text="@string/back"
-                    android:layout_marginStart="30dp" />
+                    android:text="@string/back" />
             </LinearLayout>
 
             <ScrollView
