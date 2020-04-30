@@ -1,13 +1,20 @@
 <resources>
     <string name="app_name">LegoTestApp</string>
     <string name="lego">Lego</string>
-    <string name="background_image">background</string>
+    <string name="background_image">Фон</string>
     <string name="select_level">Выберите уровень</string>
     <string name="btn_newbie_mode">Новичок</string>
     <string name="btn_advanced_mode">Бывалый</string>
     <string name="btn_start_main">Начать</string>
     <string name="main_title">Лего тест</string>
     <string name="back">Назад</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="level">Уровень:</string>
+    <string name="level1">Уровень 1</string>
+    <string name="img_question">Изображение вопроса</string>
+    <string name="question_text">Укажите название детали</string>
+    <string name="question_dialog_description">В этом уровне тебе предстоит указать название детали,\n изображенной на рисунке.</string>
+    <string name="btn_close_dialog">X</string>
     <string name="number1">1</string>
     <string name="number2">2</string>
     <string name="number3">3</string>
@@ -36,4 +43,5 @@
     <string name="number26">26</string>
     <string name="number27">27</string>
     <string name="number28">28</string>
+
 </resources>
