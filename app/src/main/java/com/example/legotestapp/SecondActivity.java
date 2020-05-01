@@ -10,12 +10,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class SecondActivity extends AppCompatActivity {
+
+    static Character close_s = 'n';
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.second_activity);
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if(close_s == 'y') {
+            finish();
+            close_s = 'n';
+        }
     }
 
     public void onClick(View view) {
@@ -31,6 +43,8 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent2);
                 break;
 
+            default:
+                break;
         }
     }
 }

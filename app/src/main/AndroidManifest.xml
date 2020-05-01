@@ -18,15 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"
-            android:screenOrientation="fullSensor">
-        </activity>
-        <activity android:name=".NewbieActivity"
-            android:screenOrientation="fullSensor">
-        </activity>
-        <activity android:name=".ProffActivity"
-            android:screenOrientation="fullSensor">
-        </activity>
+
+        <activity
+            android:name=".SecondActivity"
+            android:screenOrientation="fullSensor"></activity>
+        <activity
+            android:name=".NewbieActivity"
+            android:screenOrientation="fullSensor"></activity>
+        <activity
+            android:name=".ProffActivity"
+            android:screenOrientation="fullSensor"></activity>
+        <activity
+            android:name=".ProffActivity2"
+            android:screenOrientation="fullSensor"></activity>
+        <activity
+            android:name=".ProffActivity3"
+            android:screenOrientation="fullSensor"></activity>
     </application>
 
 </manifest>
