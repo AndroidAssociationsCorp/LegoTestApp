@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.legotestapp">
+    package="com.example.legotestapp"
+    android:versionName="1.0"
+    android:versionCode="1">
 
     <application
         android:allowBackup="true"
@@ -9,8 +11,9 @@
         android:roundIcon="@drawable/ico"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.legotestapp.Level1"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name="com.example.legotestapp.MainActivity"
             android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,21 +23,26 @@
         </activity>
 
         <activity
-            android:name=".SecondActivity"
-            android:screenOrientation="fullSensor"></activity>
+            android:name="com.example.legotestapp.SecondActivity"
+            android:screenOrientation="fullSensor">
+        </activity>
         
         <activity
-            android:name=".NewbieActivity"
-            android:screenOrientation="fullSensor"></activity>
+            android:name="com.example.legotestapp.NewbieActivity"
+            android:screenOrientation="fullSensor">
+        </activity>
         <activity
-            android:name=".ProffActivity"
-            android:screenOrientation="fullSensor"></activity>
+            android:name="com.example.legotestapp.ProffActivity"
+            android:screenOrientation="fullSensor">
+        </activity>
         <activity
-            android:name=".ProffActivity2"
-            android:screenOrientation="fullSensor"></activity>
+            android:name="com.example.legotestapp.ProffActivity2"
+            android:screenOrientation="fullSensor">
+        </activity>
         <activity
-            android:name=".ProffActivity3"
-            android:screenOrientation="fullSensor"></activity>
+            android:name="com.example.legotestapp.ProffActivity3"
+            android:screenOrientation="fullSensor">
+        </activity>
     </application>
 
 </manifest>

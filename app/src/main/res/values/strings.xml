@@ -8,6 +8,13 @@
     <string name="btn_start_main">Начать</string>
     <string name="btn_reset">Сброс</string>
     <string name="main_title">Лего тест</string>
+    <string name="level">Уровень:</string>
+    <string name="level1">Уровень 1</string>
+    <string name="img_question">Изображение вопроса</string>
+    <string name="question_text">Укажите название детали</string>
+    <string name="question_dialog_description">В этом уровне тебе предстоит указать название детали,\n изображенной на рисунке.</string>
+    <string name="btn_close_dialog">X</string>
+    <string name="btn_continue">Продолжить</string>
     <string name="p_q_4_1">зубчатая передача</string>
     <string name="p_q_4_2">червячная передача</string>
     <string name="p_q_4_3">ременная передача</string>
