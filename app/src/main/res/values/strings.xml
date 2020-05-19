@@ -4,7 +4,7 @@
     <string name="background_image">background</string>
     <string name="select_level">Выберите уровень</string>
     <string name="btn_newbie_mode">Новичок</string>
-    <string name="btn_advanced_mode">Бывалый</string>
+    <string name="btn_advanced_mode">Опытный</string>
     <string name="btn_start_main">Начать</string>
     <string name="btn_reset">Сброс</string>
     <string name="main_title">Лего тест</string>
@@ -27,6 +27,7 @@
     <string name="p_q_8_4">коммутатор</string>
     <string name="back">Назад</string>
     <string name="next">Далее</string>
+    <string name="commit">Подтвердить</string>
     <string name="p_result">Результат:</string>
     <string name="p_bck_q">К вопросам</string>
     <string name="p_to_main">В начало</string>

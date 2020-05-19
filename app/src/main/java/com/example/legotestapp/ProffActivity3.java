@@ -125,6 +125,7 @@ public class ProffActivity3 extends AppCompatActivity {
         }
         loadArray();
         checkArray();
+        showQuestions();
     }
 
     public void onClick(View view) {
@@ -135,6 +136,141 @@ public class ProffActivity3 extends AppCompatActivity {
             case R.id.button_p_to_m:
                 ProffActivity.close_p = 'y';
                 finish();
+                break;
+        }
+    }
+
+    void showQuestions(){
+        TextView n1 = findViewById(R.id.textView1);
+        TextView n2 = findViewById(R.id.textView2);
+        TextView n3 = findViewById(R.id.textView3);
+        TextView n4 = findViewById(R.id.textView4);
+        TextView n5 = findViewById(R.id.textView5);
+        TextView n6 = findViewById(R.id.textView6);
+        TextView n7 = findViewById(R.id.textView7);
+        TextView n8 = findViewById(R.id.textView8);
+        TextView n9 = findViewById(R.id.textView9);
+        TextView n10 = findViewById(R.id.textView10);
+        switch (q_count){
+            case "10":
+                n1.setVisibility(View.VISIBLE);
+                n2.setVisibility(View.VISIBLE);
+                n3.setVisibility(View.VISIBLE);
+                n4.setVisibility(View.VISIBLE);
+                n5.setVisibility(View.VISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "9":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.VISIBLE);
+                n3.setVisibility(View.VISIBLE);
+                n4.setVisibility(View.VISIBLE);
+                n5.setVisibility(View.VISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "8":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.VISIBLE);
+                n4.setVisibility(View.VISIBLE);
+                n5.setVisibility(View.VISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "7":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.VISIBLE);
+                n5.setVisibility(View.VISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "6":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.VISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "5":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.INVISIBLE);
+                n6.setVisibility(View.VISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "4":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.INVISIBLE);
+                n6.setVisibility(View.INVISIBLE);
+                n7.setVisibility(View.VISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "3":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.INVISIBLE);
+                n6.setVisibility(View.INVISIBLE);
+                n7.setVisibility(View.INVISIBLE);
+                n8.setVisibility(View.VISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "2":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.INVISIBLE);
+                n6.setVisibility(View.INVISIBLE);
+                n7.setVisibility(View.INVISIBLE);
+                n8.setVisibility(View.INVISIBLE);
+                n9.setVisibility(View.VISIBLE);
+                n10.setVisibility(View.VISIBLE);
+                break;
+            case "1":
+                n1.setVisibility(View.INVISIBLE);
+                n2.setVisibility(View.INVISIBLE);
+                n3.setVisibility(View.INVISIBLE);
+                n4.setVisibility(View.INVISIBLE);
+                n5.setVisibility(View.INVISIBLE);
+                n6.setVisibility(View.INVISIBLE);
+                n7.setVisibility(View.INVISIBLE);
+                n8.setVisibility(View.INVISIBLE);
+                n9.setVisibility(View.INVISIBLE);
+                n10.setVisibility(View.VISIBLE);
                 break;
         }
     }

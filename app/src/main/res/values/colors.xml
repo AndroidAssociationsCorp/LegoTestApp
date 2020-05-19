@@ -10,4 +10,6 @@
     <color name="yellow80">#80fada5e</color>
     <color name="white">#ffffff</color>
     <color name="red_btn">#930209</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#4CD100</color>
 </resources>
