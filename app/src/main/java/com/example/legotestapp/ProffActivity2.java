@@ -4,6 +4,8 @@ package com.example.legotestapp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +58,16 @@ public class ProffActivity2 extends AppCompatActivity {
     Character right_Ans_9 = 'n';
     Character right_Ans_10 = 'n';
 
+    final int MAX_STREAMS = 2;
+
     SharedPreferences sPref;
+
+    SoundPool sp;
+    int soundIdRight;
+    int soundIdWrong;
+
+    int streamIdRight;
+    int streamIdWrong;
 
 
     private void showQuestion(){
@@ -248,6 +259,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[0] = 1;
                             right_Ans_1 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_1 == 'y') {
@@ -256,6 +268,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans_1 = 'n';
                         } else {
                             ProffActivity.completed[0] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -278,6 +291,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[1] = 1;
                             right_Ans_2 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_2 == 'y') {
@@ -286,6 +300,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[1] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -307,6 +322,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[2] = 1;
                             right_Ans_3 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_3 == 'y') {
@@ -315,6 +331,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[2] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -340,6 +357,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[3] = 1;
                             right_Ans_4 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_4 == 'y') {
@@ -348,6 +366,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[3] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -373,6 +392,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[4] = 1;
                             right_Ans_5 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_5 == 'y') {
@@ -381,6 +401,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[4] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -406,6 +427,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[5] = 1;
                             right_Ans_6 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_6 == 'y') {
@@ -414,6 +436,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[5] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -439,6 +462,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[6] = 1;
                             right_Ans_7 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_7 == 'y') {
@@ -447,6 +471,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[6] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -472,6 +497,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[7] = 1;
                             right_Ans_8 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_8 == 'y') {
@@ -480,6 +506,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[7] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -501,6 +528,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[8] = 1;
                             right_Ans_9 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_9 == 'y') {
@@ -509,6 +537,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[8] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -534,6 +563,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             ProffActivity.completed[9] = 1;
                             right_Ans_10 = 'y';
                             right_Ans++;
+                            sp.play(soundIdRight, 1, 1, 0, 0,1);
                         }
                     } else {
                         if (right_Ans_10 == 'y') {
@@ -542,6 +572,7 @@ public class ProffActivity2 extends AppCompatActivity {
                             right_Ans--;
                         } else {
                             ProffActivity.completed[9] = 0;
+                            sp.play(soundIdWrong, 1, 1, 0, 0,1);
                         }
                     }
                 }
@@ -828,6 +859,11 @@ public class ProffActivity2 extends AppCompatActivity {
 
         number = getIntent().getIntExtra("number",0);
         showQuestion();
+
+        sp = new SoundPool(MAX_STREAMS, AudioManager.STREAM_MUSIC, 0);
+
+        soundIdRight = sp.load(this,R.raw.right,1);
+        soundIdWrong = sp.load(this,R.raw.wrong,1);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -839,7 +875,6 @@ public class ProffActivity2 extends AppCompatActivity {
 
             case R.id.proff_btn_next:
                 if(number != 10) {
-                    checkQuestion();
                     points.setText(String.valueOf(right_Ans));
                     number++;
                     showQuestion();
@@ -847,7 +882,6 @@ public class ProffActivity2 extends AppCompatActivity {
                     next.setVisibility(View.INVISIBLE);
                 }
                 else{
-                    checkQuestion();
                     points.setText(String.valueOf(right_Ans));
                     right_Ans_s = right_Ans.toString();
                     q_count_s = q_count.toString();
@@ -859,7 +893,7 @@ public class ProffActivity2 extends AppCompatActivity {
                     finish();
                 }
                 break;
-
+/*
             case R.id.proff_btn_back:
                 if (number == getIntent().getIntExtra("number",0)) {
                     finish();
@@ -870,7 +904,7 @@ public class ProffActivity2 extends AppCompatActivity {
                     break;
                 }
                 break;
-
+*/
             case R.id.proff_btn_commit:
                 if(checkQuestion()==1) {
                     commit.setVisibility(View.INVISIBLE);

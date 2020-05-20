@@ -69,4 +69,6 @@
     <string name="proff_q_8">8.	Выберите деталь из набора LEGO WeDo:</string>
     <string name="proff_q_9">9.	Какая из передач, изображенных ниже, холостая?</string>
     <string name="proff_q_10">10. Определите тип передачи подвижной части робота:</string>
+    <string name="about_newbie">Простые вопросы с выбором ответа.</string>
+    <string name="about_proff">Более сложные вопросы с выбором одного или нескольких ответов.</string>
 </resources>
