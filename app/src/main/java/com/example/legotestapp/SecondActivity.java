@@ -8,7 +8,6 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
 public class SecondActivity extends AppCompatActivity {
 
     static Character close_s = 'n';
@@ -24,14 +23,14 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if(close_s == 'y') {
+        if (close_s == 'y') {
             finish();
             close_s = 'n';
         }
     }
 
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
 
             case R.id.button_1:
                 Intent intent1 = new Intent(SecondActivity.this, NewbieActivity.class);
@@ -46,5 +45,10 @@ public class SecondActivity extends AppCompatActivity {
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 }

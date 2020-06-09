@@ -32,6 +32,11 @@
             android:screenOrientation="fullSensor">
         </activity>
         <activity
+            android:name=".NewbieResultActivity"
+            android:screenOrientation="fullSensor">
+        </activity>
+
+        <activity
             android:name="com.example.legotestapp.ProffActivity"
             android:screenOrientation="fullSensor">
         </activity>
