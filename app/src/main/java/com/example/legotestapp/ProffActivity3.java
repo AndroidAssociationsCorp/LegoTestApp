@@ -125,7 +125,7 @@ public class ProffActivity3 extends AppCompatActivity {
         }
         loadArray();
         checkArray();
-        showQuestions();
+        //showQuestions();
     }
 
     public void onClick(View view) {
@@ -140,7 +140,7 @@ public class ProffActivity3 extends AppCompatActivity {
         }
     }
 
-    void showQuestions(){
+    /*void showQuestions(){
         TextView n1 = findViewById(R.id.textView1);
         TextView n2 = findViewById(R.id.textView2);
         TextView n3 = findViewById(R.id.textView3);
@@ -273,5 +273,5 @@ public class ProffActivity3 extends AppCompatActivity {
                 n10.setVisibility(View.VISIBLE);
                 break;
         }
-    }
+    }*/
 }

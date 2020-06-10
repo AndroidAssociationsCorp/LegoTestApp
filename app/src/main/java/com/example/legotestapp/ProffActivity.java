@@ -17,15 +17,17 @@ public class ProffActivity extends AppCompatActivity {
 
     static Character close_p = 'n';
     static Integer[] completed = new Integer[10];
+    Integer right_Ans = 0;
 
     SharedPreferences sPref;
 
     void loadArray(){
         sPref = getSharedPreferences("array",MODE_PRIVATE);
-        for(int i = 0; i < completed.length;i++){
+       /* for(int i = 0; i < completed.length;i++){
             if(sPref.contains("completed_"+i))
             completed[i] = sPref.getInt("completed_"+i,0);
-        }
+        }*/
+        right_Ans = sPref.getInt("points",0);
     }
 
     @Override
@@ -65,6 +67,8 @@ public class ProffActivity extends AppCompatActivity {
         TextView n8 = findViewById(R.id.textView8);
         TextView n9 = findViewById(R.id.textView9);
         TextView n10 = findViewById(R.id.textView10);
+        TextView points = findViewById(R.id.textView38);
+        points.setText(String.valueOf(right_Ans));
         for(int i = 0; i < 10; i++){
             switch (i){
                 case 0:

@@ -14,7 +14,7 @@
         <activity android:name="com.example.legotestapp.Level1"
             android:screenOrientation="fullSensor"/>
         <activity android:name="com.example.legotestapp.MainActivity"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
 
         <activity
             android:name="com.example.legotestapp.SecondActivity"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
         </activity>
         
         <activity
@@ -38,15 +38,15 @@
 
         <activity
             android:name="com.example.legotestapp.ProffActivity"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.example.legotestapp.ProffActivity2"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.example.legotestapp.ProffActivity3"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

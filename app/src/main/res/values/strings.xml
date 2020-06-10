@@ -26,6 +26,7 @@
     <string name="p_q_8_3">датчик расстояния</string>
     <string name="p_q_8_4">коммутатор</string>
     <string name="back">Назад</string>
+    <string name="finish">Завершить</string>
     <string name="next">Далее</string>
     <string name="commit">Подтвердить</string>
     <string name="p_result">Результат:</string>
@@ -60,7 +61,7 @@
     <string name="number27">27</string>
     <string name="number28">28</string>
     <string name="proff_q_1">1.	Выберите один объект в каждом столбике, который считаете не соответствующим тематике механики.</string>
-    <string name="proff_q_2">2.	Дополните конструкцию. Выберите только один элемент, отвечающий наиболее логичному использованию.</string>
+    <string name="proff_q_2">2.	Дополните конструкцию. Выберите только один элемент, отвечающий наиболее логичному использованию (прокручивайте вниз).</string>
     <string name="proff_q_3">3.	Найдите деталь датчик расстояния из набора LEGO WeDo:</string>
     <string name="proff_q_4">4.	Какой вид передачи изображен на рисунке?</string>
     <string name="proff_q_5">5.	Какой вид передачи изображен на рисунке?</string>

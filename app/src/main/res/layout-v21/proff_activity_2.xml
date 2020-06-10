@@ -171,6 +171,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:orientation="vertical">
 
             <ImageView
@@ -377,13 +378,14 @@
     <LinearLayout
         android:id="@+id/q_3"
         android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -526,13 +528,14 @@
     <LinearLayout
         android:id="@+id/q_5"
         android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
 
         <ImageView
             android:id="@+id/i_p_q_5"
@@ -593,13 +596,14 @@
     <LinearLayout
         android:id="@+id/q_6"
         android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
 
         <ImageView
             android:id="@+id/i_p_q_6"
@@ -660,13 +664,14 @@
     <LinearLayout
         android:id="@+id/q_7"
         android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
 
         <ImageView
             android:id="@+id/i_p_q_7"
@@ -727,13 +732,14 @@
     <LinearLayout
         android:id="@+id/q_8"
         android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -889,7 +895,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -959,14 +966,14 @@
     <TextView
         android:id="@+id/textProff"
         android:layout_width="350dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04000002" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/proff_btn_commit"
@@ -1016,7 +1023,7 @@
         app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/textView30"
@@ -1030,14 +1037,13 @@
         app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toEndOf="@+id/textView29"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="196dp"
-        android:layout_marginLeft="196dp"
         android:text="Вопрос:"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -1046,14 +1052,14 @@
         app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/current_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="212dp"
-        android:layout_marginLeft="212dp"
+        android:layout_marginEnd="4dp"
         android:text="@string/number10"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -1062,16 +1068,14 @@
         app:layout_constraintHorizontal_bias="0.597"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:text="/10"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -1079,5 +1083,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/current_question"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.16" />
 </androidx.constraintlayout.widget.ConstraintLayout>
